@@ -1,0 +1,535 @@
+/* ###################### Start Main Rules ###################### */
+
+body {
+    /*height: 4000px*/
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* ######################  End Main Rules ######################  */
+
+/* ######################  Start Header ######################  */
+.header .slider {
+    background-image: url("../Imgas/slider-img.jpg");
+    background-size: cover; /* CSS3 */
+    background-color: #eee;
+    height: 500px;
+}
+
+.header .slider .intro {
+    padding-top: 190px;
+    position: absolute;
+    left: 100px;
+    text-align: center;
+}
+
+.header .slider .intro h2 {
+    margin: 0;
+    font-size: 50px;
+    width: 600px;
+    color: #0cb32c;
+}
+
+.header .slider .intro button {
+    background: none;
+    width: 140px;
+    margin-top: 15px;
+    font-size: 20px;
+    border: 3px solid #fff;
+    font-weight: bold;
+}
+
+.header .navbar {
+    background-color: #252F31;
+    color: #fff;
+    overflow: hidden;
+
+}
+
+.header .navbar h2 {
+    float: left;
+}
+
+.header .navbar h2 span {
+    color: #0cb32c;
+}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    float: right;
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+}
+
+.header .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+    color: #0cb32c;
+}
+
+
+/* ###################### End Header ######################  */
+
+/* ###################### Start Features ######################  */
+.features {
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.features .feat {
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+}
+
+.features .feat h2 {
+    color: #444;
+}
+
+.features .feat p {
+    line-height: 1.7;
+    color: #888;
+    text-align: justify;
+    padding: 0 20px 0 0;
+}
+
+/*  ######################  End Features ###################### */
+
+
+/* ######################  Start about-me ######################  */
+.about-me {
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.about-me .image {
+    float: left;
+    width: 40%;
+}
+
+.about-me .image img {
+    width: 100%;
+}
+
+.about-me .info {
+    float: left;
+    width: 60%;
+
+}
+
+.about-me .info h2 {
+    margin: 40px 0 20px 40px;
+    color: #555;
+}
+
+.about-me .info > p {
+    margin: 0 0 10px 40px;
+}
+
+
+.about-me .info p:last-of-type {
+    margin-top: 20px;
+}
+
+.about-me .info p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.about-me .info .hobbies {
+    overflow: hidden;
+    margin: 20px 0 0 40px;
+}
+
+
+.about-me .info .hobbies .content { /* [ > ] Is Direct Child*/
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.about-me .info .hobbies .content h3 {
+    color: #555;
+}
+
+
+.about-me .info .hobbies .content .icon {
+    float: left;
+    width: 12%;
+    margin: 40px 10px 0 0;
+    color: #0cb32c;
+}
+
+.about-me .info .hobbies .content .text {
+    float: left;
+    width: 80%;
+}
+
+/* ######################  End about-me ######################  */
+
+
+/* ###################### Start My Skills ######################  */
+.my-skills {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.my-skills .skills, .my-skills .progress {
+    width: 50%;
+    float: left;
+}
+
+
+.my-skills .skills h2 {
+    margin: 40px 0 20px 40px;
+    color: #555;
+}
+
+.my-skills .skills > p {
+    margin: 0 0 10px 40px;
+    line-height: 1.6;
+    color: #666;
+}
+
+
+.my-skills .skills p:last-of-type {
+    margin-top: 20px;
+}
+
+.my-skills .skills button {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.my-skills .progress .technique {
+    margin-left: 30px;
+}
+
+.my-skills .progress .technique h3 {
+    color: #555;
+}
+
+.my-skills .progress .technique div {
+    background-color: #F3F3F3;
+    height: 25px;
+}
+
+.my-skills .progress .technique div span {
+    background-color: #2DCC70;
+    height: 25px;
+    display: block; /* Because The Span Is Inline */
+    text-align: right;
+    line-height: 25px;
+    color: #EAFFF3;
+    font-weight: bold;
+}
+
+/* ######################  End My Skills  ###################### */
+
+/*  ###################### Start Resume  ###################### */
+
+.resume {
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.resume h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666;
+}
+
+.resume p {
+    line-height: 1.7;
+    color: #666;
+    padding: 0 25px;
+}
+
+.resume button {
+    margin-top: 25px;
+}
+
+
+/* ######################  Start Resume ###################### */
+
+
+/* ###################### Start My Education ###################### */
+
+.my-education {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.my-education hr {
+    margin: 20px 0;
+    background-color: #999;
+    height: 1px;
+    border: 0;
+}
+
+.my-education .main {
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+
+
+.my-education .main h2 {
+    margin: 40px 0 20px 40px;
+    color: #555;
+}
+
+.my-education .main > p {
+    margin: 0 0 10px 40px;
+    line-height: 1.6;
+    color: #666;
+}
+
+
+.my-education .main p:last-of-type {
+    margin-top: 20px;
+}
+
+.my-education .exp {
+    width: 45%;
+    float: left;
+}
+
+.my-education .exp h3 {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.my-education .exp span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.my-education .exp span:first-of-type {
+    color: #9D9D9D;
+}
+
+.my-education .exp span:last-of-type {
+    background-color: #2DCC70;
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+
+.my-education .exp p {
+    line-height: 1.7;
+    color: #777
+}
+
+
+/* ###################### End My Education ######################  */
+
+
+/* ###################### Start Testimonials ######################  */
+
+.testimonials {
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.testimonials q {
+    line-height: 1.8;
+    color: #888;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.testimonials h3 {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.testimonials ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.testimonials ul li {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #4FCA87;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.testimonials ul li.active, .testimonials ul li:hover {
+    background-color: #4FCA87;
+}
+
+/*  ###################### Start Testimonials  ###################### */
+
+/* ######################  Start Portfolio ######################  */
+
+.portfolio {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    color: #777;
+}
+
+.portfolio p {
+    line-height: 1.7;
+    color: #666;
+    padding: 0 90px;
+    margin-bottom: 30px;
+}
+
+.portfolio .our-work {
+    overflow: hidden;
+}
+
+.portfolio .our-work > div {
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px;
+}
+
+.portfolio .our-work > div img {
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+/* ######################  End Portfolio  ###################### */
+
+/*  ###################### Start Contact Me ######################  */
+
+.contact-me {
+    background-color: #252F31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+}
+
+.contact-me h2 {
+    color: #fff;
+    margin-left: 40px;
+}
+
+.contact-me .info {
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+
+.contact-me p {
+    color: #495254;
+    margin-left: 40px;
+    line-height: 1.7;
+}
+
+.contact-me p strong {
+    color: #d1d6da;
+
+}
+
+
+.contact-me .form {
+    width: 45%;
+    float: left;
+}
+
+.contact-me .form label {
+    display: block;
+    color: #d1d6da;
+    margin: 10px 0;
+}
+
+.contact-me .form input[type="text"] {
+    background-color: #4B5557;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.contact-me .form textarea {
+    background-color: #4B5557;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.contact-me .form input[type="submit"] {
+    background-color: #191E22;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 10px;
+}
+
+/*  ######################  End Contact Me  ###################### */
+
+/* ######################  Start Footer  ###################### */
+.footer {
+    background-color: #191E22;
+    color: #495254;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*  ######################  End Footer  ###################### */
+
+
+/*  ######################  Start My Framework  ###################### */
+.my-button {
+    background: none;
+    border: 3px solid #2DCC70;
+    padding: 10px 30px;
+    color: #2DCC70;
+    font-weight: bold;
+}
+
+/*  ######################  End  My Framework ###################### */

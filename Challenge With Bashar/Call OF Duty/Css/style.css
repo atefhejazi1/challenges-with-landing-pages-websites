@@ -1,0 +1,487 @@
+html, body {
+    background-color: #000;
+}
+
+/* Start Section Navbar Bootstrap */
+
+
+.navbar {
+    background-color: #424242;
+    margin-bottom: 70px;
+    padding: 0;
+}
+
+.navbar img {
+    width: 105px;
+    display: block;
+    padding-left: 10px;
+}
+
+.navbar .navbar-toggler {
+    color: #fff;
+    background-color: #fff;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 18px 15px;
+    display: block;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.\.login::after {
+    content: "";
+    border-right: 2px solid #999;
+    padding-left: 18px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.\.signUp {
+    padding-left: 0px;
+    /*padding-left: 18px;*/
+
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-expand-lg .navbar-nav .nav-link.\.login::after {
+        content: "";
+        border-right: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link.\.signUp {
+        padding-left: 18px;
+
+    }
+
+    .btn-play {
+        margin: 11px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar-expand-lg .navbar-nav .nav-link.\.login::after {
+        content: "";
+        border-right: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link.\.signUp {
+        padding-left: 18px;
+
+    }
+
+    .btn-play {
+        margin: 11px;
+    }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.\.myCallOfDuty:hover {
+    background-color: #000;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.\.myCallOfDuty::before {
+
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #424242;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: #999;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #424242;
+    color: #fff;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover::before {
+    content: "";
+    border-right: 2px solid #fff;
+    margin-right: 10px;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover::after {
+    content: "";
+    border-right: 2px solid #fff;
+    margin-left: 10px;
+}
+
+.btn-play {
+    background-color: #0f6674;
+    margin: 0;
+    padding: 20px;
+    color: #0ca3bc;
+    font-weight: bold;
+    border: 1px solid #0ca3bc;
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-play:hover {
+    border-top: 3px solid #11c0dd;
+    border-bottom: 3px solid #11c0dd;
+}
+
+
+/* End Navbar*/
+/* Start Landing Page Style */
+.landing-page {
+    background-image: url("../Images/zeus-mp-reveal-desktop.jpg");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+
+.landing-page img {
+    width: 30%;
+    padding-top: 50px;
+}
+
+.landing-page .welcome-landing-page {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.landing-page .learn-btn {
+    margin-top: 20px;
+}
+
+.landing-page .learn-btn button {
+    background-color: #424242;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 20px;
+}
+
+/* End Landing Page Style */
+/* Start News */
+.news {
+
+}
+
+.news .static-news {
+    padding: 0;
+    margin: 0;
+}
+
+.news .static-news {
+}
+
+.news .static-news {
+    padding: 0;
+}
+
+.news .static-news .item-static-news {
+    margin-right: -30px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.news .static-news .item-static-news img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.news .static-news .item-static-news:hover img {
+    transform: scale(1.03);
+}
+
+.news .static-news .item-static-news p {
+    position: relative;
+    bottom: 50px;
+    margin-bottom: -22px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.news .dynamic-news {
+    padding: 25px;
+    background-color: #171717;
+    height: 650px;
+    /*margin-bottom: 20px;*/
+
+}
+
+.news .dynamic-news h2 {
+    text-transform: uppercase;
+    color: #888;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.news .dynamic-news ul {
+    float: left;
+    padding-top: 7px;
+}
+
+.news .dynamic-news ul li {
+    display: inline;
+    padding: 10px;
+}
+
+.news .dynamic-news ul li a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 15px;
+}
+
+.news .dynamic-news hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 2px;
+    background: #999;
+    margin-top: 30px;
+}
+
+.news .dynamic-news .dynamic-news-item ul {
+    height: 500px;
+    overflow-x: hidden;
+    margin-top: 10px;
+}
+
+.news .dynamic-news .dynamic-news-item ul li {
+    overflow: hidden;
+}
+
+.news .dynamic-news .dynamic-news-item ul li img {
+    width: 30%;
+    float: left;
+}
+
+.news .dynamic-news .dynamic-news-item ul .media {
+    float: left;
+    color: #999;
+}
+
+.news .dynamic-news button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* End News */
+/*Start Get The Game Style  */
+.get_game {
+    padding-top: 40px;
+}
+
+.get_game h2 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #424242;
+}
+
+.get_game .game img {
+    width: 100%;
+    height: 300px;
+    border: 1px solid yellow;
+}
+
+@media only screen and (min-width: 768px) {
+    .get_game .game img {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* End Get The Game Style  */
+/* Start Section About Me   */
+.about_me {
+    padding-top: 300px;
+}
+
+.about_me p {
+    color: #888;
+}
+
+.about_me hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 2px;
+    background: #999;
+    margin-bottom: 50px;
+}
+
+/* End Section About Me   */
+/* Start Section Brand Names Style   */
+.brandsName {
+    padding-top: 40px;
+}
+
+.brandsName .firstBrandNames li {
+    display: inline;
+    padding-right: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.brandsName .firstBrandNames li:after {
+    content: "";
+    border-right: 1px solid #999;
+}
+
+.brandsName .firstBrandNames li:last-child:after {
+    content: "";
+    border-right: 0;
+}
+
+.brandsName .firstBrandNames li a {
+    text-decoration: none;
+    color: #999;
+    padding-right: 20px;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .brandsName .firstBrandNames li:after {
+        content: "";
+        border-right: 0;
+        /*padding: 10px;*/
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .brandsName .firstBrandNames li:after {
+        content: "";
+        border-right: 0;
+
+    }
+
+    .brandsName .firstBrandNames li {
+        margin-bottom: 20px;
+    }
+
+
+    .brandsName .secondBrandNames li {
+        margin-bottom: 20px;
+    }
+
+    .brandsName .secondBrandNames li a {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 600px) {
+    .brandsName .firstBrandNames li:after {
+        content: "";
+        border-right: 0;
+
+    }
+
+    .brandsName .firstBrandNames li {
+        margin-bottom: 20px;
+    }
+
+    .brandsName .firstBrandNames li {
+        margin-bottom: 20px;
+    }
+
+
+    .brandsName .secondBrandNames li {
+        margin-bottom: 20px;
+    }
+
+    .brandsName .secondBrandNames li a {
+        margin-bottom: 20px;
+    }
+
+    .brandsName .thirdBrandNames li {
+        margin-bottom: 20px;
+    }
+
+    .brandsName .thirdBrandNames li a {
+        margin-bottom: 20px;
+    }
+}
+
+.brandsName hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 3px;
+    background: #999;
+    margin-bottom: 50px;
+}
+
+.brandsName .secondBrandNames {
+}
+
+.brandsName .secondBrandNames li {
+    display: inline;
+}
+
+.brandsName .secondBrandNames li a {
+    padding-right: 10px;
+}
+
+.brandsName .secondBrandNames li a img {
+    width: 200px;
+    background-color: #fff;
+}
+
+
+.brandsName .thirdBrandNames {
+}
+
+.brandsName .thirdBrandNames li {
+    display: inline;
+}
+
+.brandsName .thirdBrandNames li a {
+    /*padding-right: 10px;*/
+}
+
+.brandsName .thirdBrandNames li a img {
+    /*width: 200px;*/
+    /*background-color: #fff;*/
+}
+
+/* End Section Brand Names Style   */
+/* Start Section End Nav Style   */
+.end-nav {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.end-nav p {
+    color: #999;
+    padding: 0 50px;
+}
+
+.end-nav button {
+    text-transform: uppercase;
+    border: none;
+    padding: 4px 10px;
+}
+
+/* End Section End Nav Style   */

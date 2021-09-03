@@ -1,0 +1,36 @@
+/* Start yellow Theme */
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.carousel-indicators .active,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.option-box .fa-cog,
+.dropdown-menu .divider {
+    background-color: #ebd80e;
+}
+
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.testimonials .item span,
+.our-team .team .person i:hover,
+.footer h3,
+.footer .copyright span {
+    color: #ebd80e;
+}
+
+.testimonials .carousel-indicators li.active {
+    border: 2px solid #ebd80e;
+}
+
+.dropdown-menu {
+    border-top: 3px solid #ebd80e;
+}
+
+.option-box .color-option {
+    border: 5px solid #ebd80e;
+}
+
+
+/* End Purple Theme cf2be5 */

@@ -1,0 +1,54 @@
+/* ################################ Start Media Query  ################################  */
+
+/* From Zero To Mobile */
+@media (max-width: 767px) {
+    /*Mobile And Tablets*/
+    .navbar-inverse .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .subscribe .form-control {
+        margin: 20px auto;
+        width: 400px;
+    }
+
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        max-height: none;
+    }
+
+    .footer .our-work {
+        margin: 20px;
+    }
+
+    .footer .awesome-work h3 {
+        color: #0895d1;
+        letter-spacing: 1px;
+        margin: 30px 5px 20px;
+    }
+
+    .awesome-work > div > img {
+        float: left;
+        width: 20%;
+        margin-right: 7px;
+    }
+
+}
+
+/* From Extra Small To Small */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* From Medium To medium*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large Screen */
+@media (min-width: 1200px) {
+
+}
+
+
+/* ################################ End Media Query  ################################  */

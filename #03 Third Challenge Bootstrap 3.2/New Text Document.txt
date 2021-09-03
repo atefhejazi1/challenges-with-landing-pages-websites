@@ -1,0 +1,13 @@
+عرض الصور 1920*1200
+
+لون الفورم     background: rgba(82, 78, 78, 0.7);
+
+
+https://blog.getbootstrap.com/2014/06/26/bootstrap-3-2-0-released/   بوتستراب 3 
+
+https://getbootstrap.com/docs/3.3/components/#navbar    كومبوننت بوتستراب 3
+
+
+https://www.freepik.com/  صور
+
+https://undraw.co/search  صور svg

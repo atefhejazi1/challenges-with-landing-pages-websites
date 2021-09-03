@@ -1,0 +1,29 @@
+body {
+  height: 4000px;
+}
+
+.landing-page {
+  background-image: url("../images/landingPage.png");
+  height: 938px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar {
+  height: 0;
+  padding: 0;
+}
+.navbar li {
+  height: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #AFC67B;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

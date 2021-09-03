@@ -1,0 +1,113 @@
+/* ################################# Start About Us #################################*/
+.breadcrumb-holder {
+    background-color: #f5f5f5;
+}
+
+.breadcrumb {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.about_us {
+    padding: 50px 0;
+}
+
+.about_us h1 {
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: -3px;
+    font-size: 62px;
+}
+
+.about_us hr {
+    width: 70%;
+}
+
+
+/* ################################# End About Us #################################*/
+
+
+/* ################################# Start About Us Features #################################*/
+.about-features {
+    padding-top: 70px !important;
+    background-color: #eee;
+}
+
+.about-features h3 {
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: -1px;
+}
+
+.about-features p {
+    margin-bottom: 20px;
+}
+
+.about-features {
+    padding: 0 0 70px;
+
+}
+
+/* ################################# End About Us Features #################################*/
+
+/* ################################# Start About Us Ceo #################################*/
+.about_ceo {
+    padding-top: 40px;
+}
+
+.about_ceo h2 {
+    font-family: 'Russo One', sans-serif;
+}
+
+.about_ceo .lead {
+    line-height: 1.8;
+}
+
+.about_ceo img {
+    width: 100%;
+}
+
+.about_ceo .btn-primary {
+    background-color: #333;
+    border-color: #333;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+/* ################################# End About Us Ceo #################################*/
+
+
+/* ################################# Start FAQ  #################################*/
+.faq {
+    padding: 50px 0;
+}
+
+.faq h1 {
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: -2px;
+    font-size: 60px;
+}
+
+.faq h1 ~ hr { /*Next ~ */
+    width: 70%;
+}
+
+
+.faq-questions .panel-heading {
+    padding: 15px;
+}
+
+.faq-questions .panel-heading a:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+    color: #444;
+}
+
+.faq-questions .panel-heading a.collapsed:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e080";
+    float: right;
+    color: #444;
+}
+
+
+/* ################################# End FAQ  #################################*/

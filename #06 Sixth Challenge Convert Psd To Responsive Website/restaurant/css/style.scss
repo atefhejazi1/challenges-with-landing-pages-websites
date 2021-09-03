@@ -1,0 +1,33 @@
+$mainColor: #AFC67B;
+
+body {
+  height: 4000px;
+}
+
+.landing-page {
+  background-image: url("../images/landingPage.png");
+  height: 938px;
+  //width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.navbar {
+  height: 0;
+  padding: 0;
+
+  li {
+    height: 0;
+
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $mainColor;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}

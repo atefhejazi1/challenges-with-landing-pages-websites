@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80c3e766-2c4b-4c9f-8894-0736812c5297" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1gwvTLaIgNSC0gShnbabsbW6NmJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Challenge With Bashar/Call OF Duty" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80c3e766-2c4b-4c9f-8894-0736812c5297" name="Default Changelist" comment="" />
+      <created>1599038476396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599038476396</updated>
+      <workItem from="1599038477634" duration="1603000" />
+      <workItem from="1599040127118" duration="10739000" />
+      <workItem from="1599255956519" duration="623000" />
+      <workItem from="1599290239586" duration="82000" />
+      <workItem from="1599508245558" duration="2346000" />
+      <workItem from="1599586632626" duration="691000" />
+      <workItem from="1599726638256" duration="628000" />
+      <workItem from="1599812417460" duration="96000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="339" y="143" key="EditFileWatcherDialog" timestamp="1599508596591">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="143" key="EditFileWatcherDialog/0.0.1366.738@0.0.1366.738" timestamp="1599508596591" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1599812512679">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1599812512679" />
+    <state x="184" y="13" key="SettingsEditor" timestamp="1599040088851">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1599040088851" />
+  </component>
+</project>
